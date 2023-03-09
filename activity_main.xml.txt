@@ -1,0 +1,62 @@
+<LinarLayout>
+	xmls:android="http://schemas.android.com/apk/res/android"
+	android:layout_width ="match_parent"
+	android:layout_height ="wrap_content"
+	android:layout_gravity ="center_vertical"
+	android:orientation ="vertical">
+	
+	//Nome
+	<EditText
+		android:id="@+id/edtNome"
+		android:hint="@string/edtNome"
+		android:layout_gravity="center_horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+	
+	//Endereço
+	<EditText
+		android:id="@+id/edtEndereco"
+		android:hint="@string/edtEndereco"
+		android:layout_gravity="center_horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+	
+	//CEP
+	<EditText
+		android:id="@+id/edtCEP"
+		android:hint="@string/edtCEP"
+		android:layout_gravity="center_horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+
+	//Bairro
+	<EditText
+		android:id="@+id/edtBairro"
+		android:hint="@string/edtBairro"
+		android:layout_gravity="center_horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+	
+	//Cidade
+	<EditText
+		android:id="@+id/edtCidade"
+		android:hint="@string/edtCidade"
+		android:layout_gravity="center_horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+
+	//Estado
+	<EditText
+		android:id="@+id/edtEstado"
+		android:hint="@string/edtEstado"
+		android:layout_gravity="center_horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+	
+	<Button
+		android:id="@+id/btnCadastar"
+		android:hint="@string/btnCadastrar"
+		android:layout_gravity="center_horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="mwrap_content"/>
+</LinarLayout>

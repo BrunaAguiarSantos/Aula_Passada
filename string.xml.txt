@@ -1,0 +1,10 @@
+<resources>
+	<string name="app_name">AppAula</string>
+	<string name="edtNome">Digite seu nome completo</string>
+	<string name="edtEndereco">Digite seu endereço</string>
+	<string name="edtBairro">Digite o bairro em que você mora</string>
+	<string name="edtCEP">Digite seu CEP</string>
+	<string name="edtCidade">Digite sua cidade</string>
+	<string name="edtEstado">Digite o estado em que você mora</string>
+	<string name="btnCadastrar">Cadastrar</string>
+</resouces>
